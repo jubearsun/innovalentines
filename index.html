@@ -1,3 +1,5 @@
+<!-- Valentines by Innovative Design -->
+<!-- Compiled by Julia Sun (http://juliasun.io/) -->
 <html id="ng-app" data-ng-app="valentines">
     <head>
         <title>Valentines by Innovative Design</title>
@@ -6,11 +8,20 @@
         <link rel="icon" type="image/png" href="img/logo/logo.png">
 
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
         <script src="./js/angular.min.js"></script>
         <script src="./js/app.js"></script>
     </head>
     <body id="content" ng-controller="MainCtrl">
-        {{ intro }}
+        <div class="page-container">
+            <div class="title">Valentines by Innovative Design</div>
+            <div class="about">
+                Every February, <a href="http://innovativedesign.club" target="_blank">Innovative Design</a> designs and distributes Valentines on Sproul for free!  Here are some examples of cards we have made in the past.  Drop by the table to get one!
+            </div>
+            <div class="grid-wrapper">
+                <div class="col" ng-repeat="card in cards track by $index" style="background-image:url('{{ card }}')"></div>
+            </div>
+        </div>
     </body>
 </html>

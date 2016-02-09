@@ -9,5 +9,48 @@
 }
 
 #content {
-    background: #EBEBEB;
+    background: #c54f7d;
+    color: #EBEBEB;
+    font-family: "Montserrat", Arial;
+}
+
+.page-container {
+    padding: 10%;
+}
+
+.page-container .title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 3%;
+}
+
+.page-container .about {
+    font-size: 18px;
+    margin: 20px auto;
+    line-height: 29px;
+}
+
+.page-container .about a:link, a:visited {
+    text-decoration: none;
+    color: #BDCDBD;
+    transition: color 250ms linear;
+}
+
+.page-container .about a:hover {
+    color: #ADADAD;
+}
+
+.page-container .grid-wrapper {
+    text-align: center;
+}
+
+.page-container .grid-wrapper .col {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
