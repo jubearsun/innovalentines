@@ -15,7 +15,9 @@
 }
 
 .page-container {
-    padding: 10%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 10% 20px 10% 20px;
 }
 
 .page-container .title {
@@ -53,4 +55,5 @@
     display: inline-block;
     margin-right: 2%;
     margin-bottom: 2%;
+    box-shadow: 0 4px 4px #EBEBEB;
 }
