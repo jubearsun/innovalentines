@@ -3,23 +3,24 @@ var app = angular.module('valentines', [])
 
         $scope.cards = [
             './img/cards/apeeling.png',
-            './img/cards/art.png',
-            './img/cards/avocuddle.jpg',
-            './img/cards/backpack.png',
-            './img/cards/berry.png',
             './img/cards/butter.png',
-            './img/cards/color.png',
-            './img/cards/donut.jpg',
+            './img/cards/berry.png',
             './img/cards/egg.png',
+            './img/cards/avocuddle.png',
+            './img/cards/donut.jpg',
+            './img/cards/backpack.png',
             './img/cards/filters.png',
-            './img/cards/hand.png',
+            './img/cards/koala.png',
             './img/cards/latte.png',
-            './img/cards/mango.jpg',
-            './img/cards/oliveyou.jpg',
-            './img/cards/pear.jpg',
+            './img/cards/art.png',
+            './img/cards/hand.png',
+            './img/cards/mango.png',
+            './img/cards/color.png',
+            './img/cards/pear.png',
             './img/cards/pixel.png',
             './img/cards/spark.png',
-            './img/cards/thang.png'
+            './img/cards/thang.png',
+            './img/cards/olive.png',
         ];
 
     }]);
