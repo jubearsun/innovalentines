@@ -12,7 +12,6 @@
     background: #C54F7D;
     color: #EBEBEB;
     font-family: "Montserrat", Arial;
-    cursor: crosshair;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -31,6 +30,53 @@
     margin-bottom: 3%;
 }
 
+.page-container .links {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.page-container .links a {
+    text-decoration: none;
+}
+
+.page-container .links #twitter {
+    color: #C54F7D;
+    -webkit-transition: color 250ms linear;
+    transition: color 250ms linear;
+}
+
+.page-container .links #facebook {
+    color: #C54F7D;
+    -webkit-transition: color 250ms linear;
+    transition: color 250ms linear;
+}
+
+.page-container .links #instagram {
+    color: #C54F7D;
+    -webkit-transition: color 250ms linear;
+    transition: color 250ms linear;
+}
+
+.page-container .links:hover {
+    cursor: pointer;
+}
+
+.page-container .links .fa-circle {
+    color: #EBEBEB;
+}
+
+.page-container .links #twitter:hover {
+    color: #00ACED;
+}
+
+.page-container .links #facebook:hover {
+    color: #3B5998;
+}
+
+.page-container .links #instagram:hover {
+    color: #125688;
+}
+
 .page-container .about {
     font-size: 18px;
     margin: 20px auto;
@@ -40,6 +86,7 @@
 .page-container .about a:link, a:visited {
     text-decoration: none;
     color: #BDCDBD;
+    -webkit-transition: color 250ms linear;
     transition: color 250ms linear;
 }
 
