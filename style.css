@@ -41,20 +41,20 @@
 
 .page-container .links #twitter {
     color: #C54F7D;
-    -webkit-transition: color 250ms linear;
-    transition: color 250ms linear;
+    -webkit-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
 }
 
 .page-container .links #facebook {
     color: #C54F7D;
-    -webkit-transition: color 250ms linear;
-    transition: color 250ms linear;
+    -webkit-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
 }
 
 .page-container .links #instagram {
     color: #C54F7D;
-    -webkit-transition: color 250ms linear;
-    transition: color 250ms linear;
+    -webkit-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
 }
 
 .page-container .links:hover {
