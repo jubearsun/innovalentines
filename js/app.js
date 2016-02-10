@@ -8,6 +8,7 @@ var app = angular.module('valentines', [])
             './img/cards/backpack.png',
             './img/cards/berry.png',
             './img/cards/color.png',
+            './img/cards/donut.jpg',
             './img/cards/egg.png',
             './img/cards/filters.png',
             './img/cards/hand.png',

@@ -12,6 +12,11 @@
     background: #C54F7D;
     color: #EBEBEB;
     font-family: "Montserrat", Arial;
+    cursor: crosshair;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .page-container {
@@ -50,10 +55,6 @@
     -moz-column-gap:      2%;
     column-count:         3;
     column-gap:           2%;
-}
-
-.page-container .grid-wrapper .col:hover {
-    cursor: crosshair;
 }
 
 .page-container .grid-wrapper img.col {
