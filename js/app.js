@@ -7,10 +7,9 @@ var app = angular.module('valentines', [])
             './img/cards/butter.png',
             './img/cards/berry.png',
             './img/cards/egg.png',
-            './img/cards/filters.png',
+            './img/cards/lava.png',
             './img/cards/donut.jpg',
             './img/cards/hand.png',
-            './img/cards/backpack.png',
             './img/cards/jar.png',
             './img/cards/latte.png',
             './img/cards/koala.png',
@@ -24,7 +23,7 @@ var app = angular.module('valentines', [])
             './img/cards/thang.png',
             './img/cards/olive.png',
             './img/cards/color.png',
-            './img/cards/pixel.png'
+            './img/cards/valentine.png'
         ];
 
     }]);
