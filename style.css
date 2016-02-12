@@ -110,6 +110,11 @@
     margin-bottom: 2.12vh;
 }
 
+.page-container .credits {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
 @media (max-width: 880px) {
     .page-container .grid-wrapper {
         -webkit-column-count: 2;
