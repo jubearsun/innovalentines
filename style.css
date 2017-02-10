@@ -1,133 +1,128 @@
 *,
 *:after,
 *:before {
-    box-sizing: border-box;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    z-index: 1;
+	box-sizing: border-box;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
 }
 
 #content {
-    background: #C54F7D;
-    color: #EBEBEB;
-    font-family: "Montserrat", Arial;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	background: #f8bbd0;
+	color: #d81b60;
+	font-family: "PT Sans", sans-serif;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .page-container {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 10% 20px 10% 20px;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 10% 20px 10% 20px;
 }
 
 .page-container .title {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 3%;
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 3%;
 }
 
 .page-container .links {
-    text-align: center;
-    margin: 20px auto;
+	text-align: center;
+	margin: 40px auto 0px auto;
 }
 
 .page-container .links a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .page-container .links #twitter {
-    color: #C54F7D;
-    -webkit-transition: color 250ms ease-in-out;
-    transition: color 250ms ease-in-out;
+	color: #C54F7D;
+	-webkit-transition: color 250ms ease-in-out;
+	transition: color 250ms ease-in-out;
 }
 
 .page-container .links #facebook {
-    color: #C54F7D;
-    -webkit-transition: color 250ms ease-in-out;
-    transition: color 250ms ease-in-out;
+	color: #C54F7D;
+	-webkit-transition: color 250ms ease-in-out;
+	transition: color 250ms ease-in-out;
 }
 
-.page-container .links #instagram {
-    color: #C54F7D;
-    -webkit-transition: color 250ms ease-in-out;
-    transition: color 250ms ease-in-out;
-}
-
-.page-container .links:hover {
-    cursor: pointer;
-}
-
-.page-container .links .fa-circle {
-    color: #EBEBEB;
+.page-container .links #icon-instagram {
+	color: #C54F7D;
+	-webkit-transition: color 250ms ease-in-out;
+	transition: color 250ms ease-in-out;
 }
 
 .page-container .links #twitter:hover {
-    color: #00ACED;
+	color: #00ACED;
+  cursor: pointer;
 }
 
 .page-container .links #facebook:hover {
-    color: #3B5998;
+	color: #3B5998;
+  cursor: pointer;
 }
 
-.page-container .links #instagram:hover {
-    color: #125688;
+.page-container .links #icon-instagram:hover {
+	color: #125688;
+  cursor: pointer;
 }
 
 .page-container .about {
-    font-size: 18px;
-    margin: 20px auto;
-    line-height: 29px;
+	font-size: 18px;
+	margin: 40px auto;
+	line-height: 29px;
 }
 
 .page-container .about a:link, a:visited {
-    text-decoration: none;
-    color: #BDCDBD;
-    -webkit-transition: color 250ms linear;
-    transition: color 250ms linear;
+	text-decoration: none;
+	color: #f06292;
+	-webkit-transition: color 250ms linear;
+	transition: color 250ms linear;
 }
 
 .page-container .about a:hover {
-    color: #ADADAD;
+	color: #f48fb1;
 }
 
 .page-container .grid-wrapper {
-    line-height: 0;
-    -webkit-column-count: 3;
-    -webkit-column-gap: 2%;
-    -moz-column-count: 3;
-    -moz-column-gap: 2%;
-    column-count: 3;
-    column-gap: 2%;
-    margin: 20px auto;
+	line-height: 0;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 2%;
+	-moz-column-count: 3;
+	-moz-column-gap: 2%;
+	column-count: 3;
+	column-gap: 2%;
+	margin: 0 auto;
 }
 
 .page-container .grid-wrapper img.col {
-    width: 100% !important;
-    height: auto !important;
-    margin-bottom: 2.12vh;
+	width: 100% !important;
+	height: auto !important;
+	margin-bottom: 2.12vh;
 }
 
 .page-container .credits {
-    font-size: 1rem;
-    line-height: 1.5rem;
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
 
 @media (max-width: 880px) {
-    .page-container .grid-wrapper {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-    }
+	.page-container .grid-wrapper {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
 }
 
 @media (max-width: 640px) {
-    .page-container .grid-wrapper {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-    }
+	.page-container .grid-wrapper {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
 }

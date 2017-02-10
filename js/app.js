@@ -1,29 +1,19 @@
 var app = angular.module('valentines', [])
-    .controller('MainCtrl', ['$scope', function ($scope) {
+	.controller('MainCtrl', ['$scope', function ($scope) {
 
-        $scope.cards = [
-            './img/cards/apeeling.png',
-            './img/cards/avocuddle.png',
-            './img/cards/butter.png',
-            './img/cards/berry.png',
-            './img/cards/egg.png',
-            './img/cards/lava.png',
-            './img/cards/donut.jpg',
-            './img/cards/hand.png',
-            './img/cards/jar.png',
-            './img/cards/latte.png',
-            './img/cards/koala.png',
-            './img/cards/cheese.jpg',
-            './img/cards/mango.png',
-            './img/cards/art.png',
-            './img/cards/dimsum.png',
-            './img/cards/pear.png',
-            './img/cards/matcha.jpg',
-            './img/cards/spark.png',
-            './img/cards/thang.png',
-            './img/cards/olive.png',
-            './img/cards/color.png',
-            './img/cards/valentine.png'
-        ];
+		$scope.cards = [
+			'./img/cards/badandboujee.png',
+      './img/cards/bb.png',
+      './img/cards/count.png',
+      './img/cards/cow.png',
+      './img/cards/map.png',
+      './img/cards/uter-us.png',
+      './img/cards/takeout.png',
+      './img/cards/circuits.png',
+      './img/cards/circuits-2.png',
+      './img/cards/pizza.png',
+      './img/cards/catch.png',
+      './img/cards/yoda.png'
+		];
 
-    }]);
+	}]);
