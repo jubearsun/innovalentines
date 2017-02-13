@@ -10,7 +10,6 @@ var app = angular.module('valentines', [])
       './img/cards/uter-us.png',
       './img/cards/takeout.png',
       './img/cards/circuits.png',
-      './img/cards/circuits-2.png',
       './img/cards/pizza.png',
       './img/cards/catch.png',
       './img/cards/yoda.png'
